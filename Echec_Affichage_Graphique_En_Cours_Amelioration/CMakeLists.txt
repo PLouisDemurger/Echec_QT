@@ -28,11 +28,11 @@ set(affichage_HEADERS
         header/AffichageCouleurEnCours.h)
 
 # set(Qt5_DIR "~/Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5")
-set(Qt5_DIR "D:/Qt/5.14.2/mingw73_32/lib/cmake/Qt5")
+set(Qt5_DIR "C:/Qt/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5")
 
-set(CMAKE_PREFIX_PATH  "D:/Qt/5.14.2/mingw73_32/")
+set(CMAKE_PREFIX_PATH  "C:/Qt/Qt5.12.10//5.12.10/mingw73_64/")
 
-set(QT_PLUGIN_PATH "D:/Qt/5.14.2/mingw73_32/bin")
+set(QT_PLUGIN_PATH "C:/Qt/Qt5.12.10/5.12.10/mingw73_64/bin")
 
 find_package(Qt5 COMPONENTS Core Widgets Gui REQUIRED)
 
